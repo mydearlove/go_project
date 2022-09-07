@@ -32,7 +32,7 @@
       spec:
         containers:
           - name: simple-web
-            image: jrmarcco/simple-web
+            image: wangchaoyang/cloudnative
             # 将 configMap : simple-web-env 的数据定义为容器环境变量
             args:
               - /bin/sh
